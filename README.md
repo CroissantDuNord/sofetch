@@ -1,6 +1,6 @@
 # sofetch
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Soviet-Linux/sofetch/master/screenshots/screenshotmanjaro.png" />
+  <img src="https://raw.githubusercontent.com/Soviet-Linux/sofetch/master/screenshots/screenshotmanjarocrop.png" />
 </p>
 A cross-platform distro and os grabber like neofetch written in python for soviet-linux but also for other systems.
 
