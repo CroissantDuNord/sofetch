@@ -10,7 +10,7 @@ from cpuinfo  import get_cpu_info as cpu_info
 import distro as dist
 from psutil import virtual_memory, boot_time
 from datetime import datetime, date
-from ascii.ascii import *
+from ascii import *
 
 SOFETCH_VERSION = '0.0.1'
 
