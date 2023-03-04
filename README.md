@@ -1,5 +1,5 @@
 # sofetch
-sofetch a soviet cross-platform distro and os grabber like neofetch written in python
+A cross-platform distro and os grabber like neofetch written in python for soviet-linux but also for other systems.
 
 ## Install & run
 ### Install
