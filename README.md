@@ -1,4 +1,7 @@
 # sofetch
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Soviet-Linux/sofetch/master/screenshots/screenshoots/Screenshot%20from%202023-03-04%2016-50-41.png" />
+</p>
 A cross-platform distro and os grabber like neofetch written in python for soviet-linux but also for other systems.
 
 ## Install & run
