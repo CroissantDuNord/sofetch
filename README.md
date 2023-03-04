@@ -1,14 +1,14 @@
 # sofetch
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Soviet-Linux/sofetch/master/screenshots/screenshoots/Screenshot%20from%202023-03-04%2016-50-41.png" />
+  <img src="https://raw.githubusercontent.com/Soviet-Linux/sofetch/master/screenshots/Screenshotmanjaro.png" />
 </p>
 A cross-platform distro and os grabber like neofetch written in python for soviet-linux but also for other systems.
 
 ## Install & run
 ### Install
 Clone the repo using the first the second or the third way 
-### 1)```git clone --recursive https://github.com/Soviet-Linux/sofetch```  
-### 2)```git clone --recursive git@github.com:Soviet-Linux/sofetch.git``` 
+### 1)``git clone --recursive https://github.com/Soviet-Linux/sofetch``  
+### 2)``git clone --recursive git@github.com:Soviet-Linux/sofetch.git`` 
 ### 3) Going to code and download the zip and unzip it
 ### Run
 Open the repository folder\
