@@ -12,7 +12,7 @@ from psutil import virtual_memory, boot_time
 from datetime import datetime, date
 from ascii import *
 
-SOFETCH_VERSION = '0.0.1'
+SOFETCH_VERSION = '0.0.2'
 
 hostUsername    = hostname()
 osPlatform      = os_platform()
