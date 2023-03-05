@@ -5,6 +5,9 @@
 A cross-platform distro and os grabber like neofetch written in python for soviet-linux but also for other systems.
 
 ## Install & run
+To get some things straight if you have linux its already easy *for once* to get sofetch installed
+you just go to the 0.0.2 release download the setup-linux.py and it will ask 1 question and it will go through and do the commands you normally have to do to have it as a program
+
 ### Install
 Clone the repo using the first the second or the third way 
 ### 1)``git clone --recursive https://github.com/Soviet-Linux/sofetch``  
