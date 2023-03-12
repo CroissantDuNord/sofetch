@@ -74,4 +74,5 @@ def sofetch():
     print(f'[bold magenta] Machine Platform\t~> {machinePlatform} [/bold magenta]\n')
     print(f'[bold green] Sofetch version: {SOFETCH_VERSION} [/bold green]')
 
+
 sofetch()
