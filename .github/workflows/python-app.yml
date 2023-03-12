@@ -29,4 +29,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install --use-pep517 -r requirements.txt; fi
     - name: run
       run: |
-            python src/main.py
+            python sofetch/main.py
