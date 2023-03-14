@@ -1,6 +1,6 @@
 from rich import print
 
-windows = """[bold magenta]
+windows = """[bold green]
                  __
             ,-~¨^  ^¨-,           _,
            /          / ;^-._...,¨/
@@ -15,7 +15,7 @@ windows = """[bold magenta]
   /          / /         /
  /_,.--:^-._/ /         /
 ^            ^¨¨-.___.:^ 
-[/bold magenta]
+[/bold green]
 """
 
 linux = """[bold magenta]
@@ -49,7 +49,7 @@ linux = """[bold magenta]
 
 [/bold magenta]
 """
-manjaro = """[bold magenta]
+manjaro = """[bold green]
 ??????????????????????????????????????G@@@@Y????????????????
 ??????????????????????????????????????G@@@@Y????????????????
 ??????????????????????????????????????G@@@@Y????????????????
@@ -78,9 +78,9 @@ manjaro = """[bold magenta]
 ????????????????Y@@@@G????????????????G@@@@Y????????????????
 ????????????????Y@@@@G????????????????G@@@@Y????????????????
 ????????????????Y@@@@G????????????????G@@@@Y????????????????
-[/bold magenta]
+[/bold green]
 """
-fedora = """[bold magenta]
+fedora = """[bold blue]
 @@@@@@@@@@@@@@@@@@@&&##BBBGGGGGGGGBBB##&&@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@&#BBGGGGGGGGGGGGGGGGGGGGGGBB#&@@@@@@@@@@@@@@@
 @@@@@@@@@@@@&BBGGGGGGGGGGGGGGGGGGGGBBGGGGGGGGBB&@@@@@@@@@@@@
@@ -109,9 +109,9 @@ GGGGGGGP555~              :?GGGGGGGGGGGGGGGGGGGGG#&@&&&@@@@@
 BGGGGGGGGPPJ:         .^!YGBGGGGGGGGGGGGGGGGGBB&@@@@&##@@@@@
 @BGGGGGGGGGGG5J?????J5PGBGGGGGGGGGGGGGGGGBB#&@@@@@@@@@@@@@@@
 @@&#BGGGGGGGGGBBBBBBBGGGGGGGGGGGGGBBB##&&@@@@@@@@@@@@@@@@@@@
-[/bold magenta]
+[/bold blue]
 """
-ubuntu = """[bold magenta]
+ubuntu = """[bold orange]
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -140,7 +140,7 @@ ubuntu = """[bold magenta]
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[/bold magenta]
+[/bold orange]
 """
 debian = """
 [bold magenta]
@@ -163,7 +163,7 @@ debian = """
 [/bold magenta]
 """
 gentoo = """
-[bold magenta]
+[bold blue]
 @@@@@@@@@@@@@@@&#G5J?7!~~~!7?J5PB&@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@&BP?!^..        ..:^~!7J5B&@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@B57^.              ....::^~!7JPB&@@@@@@@@@@@@@@@@@@
@@ -193,10 +193,10 @@ Y?.  ....:::::::::::..    .^!?JYYY5PB&@@@@@@@@@@@@@@@@@@@@@@
 @#5YJ7~:::.:::^~!7?JYY55555PGB&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@BP555YYY55555555555PGB#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@&BGPP55555PPGBB#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-[/bold magenta]
+[/bold blue]
 """
 arch = """
-[bold magenta]
+[bold blue]
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@G#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@BJY&@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@#YYJY&@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -225,10 +225,10 @@ arch = """
 @@#YJYY5G#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#BP5YJJP@@@
 @BY5G#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&BPY5&@
 &B&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#B@
-[/bold magenta]
+[/bold blue]
 """
 mint = """
-[bold magenta]
+[bold green]
 @@@@@@@@@@@@@@@@@@&BPY7~^:..    ..:^~7YPB&@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@&GJ!:.                    .:!JG&@@@@@@@@@@@@@@
 @@@@@@@@@@@#5!.      .:^~~!!!!!!!!~~^:.      .!5#@@@@@@@@@@@
@@ -257,10 +257,10 @@ mint = """
 @@@@@@@@@@@#5!.      .:^~~!!!!!!!!~~^:.      .!5#@@@@@@@@@@@
 @@@@@@@@@@@@@@&GJ!:.                    .:!JG&@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@&BPY7~^:..    ..:^~7YPB&@@@@@@@@@@@@@@@@@@
-[/bold magenta]
+[/bold green]
 """
 lite = """
-[bold magenta]
+[bold white]
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBGGBBBBBBBBBBBBBBBBBBBBBBBBBB
@@ -289,7 +289,7 @@ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB5YGBBBBBBBBBBBBBBBBBBBBB
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBGGBBBBBBBBBBBBBBBBBBBBB
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
 BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
-[/bold magenta]
+[/bold white]
 """
 garuda = """
 [bold magenta]
@@ -324,7 +324,7 @@ garuda = """
 [/bold magenta]
 """
 win10 = """
-[bold magenta]
+[bold blue]
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&##BBGPP55YYJP
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&##BBGGP555YYYJJJJJJJJJJJJJP
 @@@@@@@@@@@@@@&&&###BBGP#@@PYYYJJJJJJJJJJJJJJJJJJJJJJJJJJJJP
@@ -353,10 +353,10 @@ YJJJJJJJJJJJJJJJJJJJJJJJB@@5JJJJJJJJJJJJJJJJJJJJJJJJJJJJJJJP
 @@@@@@@@@@@@@@@&&&##BBGG#@@GYYYYJJJJJJJJJJJJJJJJJJJJJJJJJJJP
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&##BBGGPP55YYYJJJJJJJJJJJJP
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&###BGGPP55YG
-[/bold magenta]
+[/bold blue]
 """
 win11 = """
-[bold magenta]
+[bold blue]
 5555555555555555555555555555B@@B5555555555555555555555555555
 5555555555555555555555555555B@@B5555555555555555555555555555
 5555555555555555555555555555B@@B5555555555555555555555555555
@@ -385,10 +385,10 @@ win11 = """
 5555555555555555555555555555B@@B5555555555555555555555555555
 5555555555555555555555555555B@@B5555555555555555555555555555
 5555555555555555555555555555B@@B5555555555555555555555555555
-[/bold magenta]
+[/bold blue]
 """
 win7 = """
-[bold magenta]
+[bold green]
                                                             
                                                             
                                                             
@@ -410,7 +410,7 @@ win7 = """
                                                             
                                                             
 
-[/bold magenta]
+[/bold green]
 """
 macos = """
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNdyo/:yMMMMMMMMMMMM
@@ -446,7 +446,7 @@ MMMMMMMMMMMNyo/::/+sydNMMMMMMNmhso//:/+sdMMMMMMMMM
 
 """
 
-unknown = """
+unknown = """[bold red]
      .... NO! ...                  ... MNO! ...
    ..... MNO!! ...................... MNNOO! ...
  ..... MMNO! ......................... MNNOO!! .
@@ -469,5 +469,5 @@ unknown = """
    ...... MNNNNO! .. PPPPPPPPP .. MMNON!........
       ...... OO! ................. ON! .......
          ................................
-
+[/bold red]
 """
