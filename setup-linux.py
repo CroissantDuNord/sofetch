@@ -4,7 +4,11 @@ import os
 
 
 if sys.argv[1] == "-soviet":
-     os.system("cd /tmp && git clone --recursive https://github.com/Soviet-Linux/sofetch && pip install --use-pep517 -r requirements.txt && sudo mv /tmp/sofetch/sofetch/* /usr/bin/ && sudo mv /usr/bin/sofetch.py /usr/bin/sofetch && sudo chmod +x /usr/bin/sofetch && rm -rf /tmp/sofetch/ && cd ~")
+    print("Setting up sofetch to be run on sovietlinux")
+    file = open("/etc/sofetchconf", "w")
+    file.write("true")
+    file.close()
+    os.system("cd /tmp && git clone --recursive https://github.com/Soviet-Linux/sofetch && pip install --use-pep517 -r requirements.txt && sudo mv /tmp/sofetch/sofetch/* /usr/bin/ && sudo mv /usr/bin/sofetch.py /usr/bin/sofetch && sudo chmod +x /usr/bin/sofetch && rm -rf /tmp/sofetch/ && cd ~")
      print("Done with setup.py")
      sys.exit()
 

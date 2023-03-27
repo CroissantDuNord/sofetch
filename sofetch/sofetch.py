@@ -12,7 +12,8 @@ from psutil import virtual_memory, boot_time
 from datetime import datetime, date
 from ascii import *
 
-SOFETCH_VERSION = '0.0.3'
+SOFETCH_VERSION = '0.0.4'
+conf = open("/etc/sofetchconf", "r")
 
 hostUsername    = hostname()
 osPlatform      = os_platform()
@@ -62,9 +63,10 @@ def sofetch():
         print(macos)
     elif "mac" in osPlatform:
         print(macos)
+    elif conf.read() == "true":
+        print(soviet)
     else:
         print(unknown)
-
     print(f'[bold magenta] Username\t\t~> {hostUsername} [/bold magenta]')
     print(f'[bold magenta] Date\t\t\t~> {dateToday} [/bold magenta]')
     print(f'[bold magenta] OS\t\t\t~> {osPlatform} [/bold magenta]')

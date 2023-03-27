@@ -323,6 +323,36 @@ garuda = """
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 [/bold magenta]
 """
+
+soviet = 
+"""
+[bold red]
+ .:+o+/-.
+                                `:oyys+:`
+                                   .+syyyo-`
+                    .:///+oss+.      .oyyyys:
+                  -oyyyyyyyyyso`       /yyyyyo.
+                -oyyyyyyyyys+-          :yyyyys-
+             `-oyyyyyyyyyyo.             /yyyyyy-
+           `-oyyyyyyyyyyyys/`            `syyyyys`
+          `oyyyyyyyyyyyyyyyys/`           /yyyyyy/
+           `/syyyyys/oyyyyyyyys/`         -yyyyyys
+             `/sys/`  -+yyyyyyyys/.       -yyyyyyy
+               `-`      -+syyyyyyys/.     /yyyyyys
+                          .+syyyyyyys+.  `syyyyyy/
+                            .+syyyyyyys+-oyyyyyys`
+        `-++-                 ./syyyyyyyyyyyyyys-
+      ./syyyso/.                `/syyyyyyyyyyys-
+    -+syyyyyyyyss+:.`            .:syyyyyyyyyy/
+ `:oyyyyyys+syyyyyyssso++/////+ossyyyyyyyyyyyyyo-
+:syyyyyyo-` `:oyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyys:
+`/syys/.       `:+syyyyyyyyyyyyyyyyyys+:.:syyys/`
+  `/:`             .-/+oossyysso+/:-`      :o/`
+
+[/bold red]
+"""
+
+
 win10 = """
 [bold blue]
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&##BBGPP55YYJP
